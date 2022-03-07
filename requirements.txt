@@ -1,0 +1,7 @@
+conda create -n douglas_poker
+conda activate douglas_poker
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install -c conda-forge pdal python-pdal gdal
+conda install python=3 geopandas
+pip install pandasql
